@@ -1,7 +1,7 @@
 #requirements.txt
 snowflake-snowpark-python
-pip install --streamlit
-pip install --requests
+pip install streamlit
+pip install requests
 
 # New sectino to displlay smoothiefroot nutrition information
 import requests
