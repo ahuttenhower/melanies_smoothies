@@ -1,9 +1,9 @@
 #requirements.txt
 snowflake-snowpark-python
-pip install streamlit
-pip install requests
+streamlit
+requests
 
 # New sectino to displlay smoothiefroot nutrition information
-import requests
+# import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
 st.text(smoothiefroot_response)
